@@ -1,0 +1,16 @@
+{
+	"input_file": "data_in.txt",
+	"output_file": "text_out.txt",
+	"copy_to_clipboard": false,
+	"output_char_count": false,
+
+	"start_string": "Amogus ipsum ",
+	"num_chars_to_generate": 150,
+	"word_continue_chance": 0.2,
+	"sentence_continue_chance": 0.8,
+	"min_sentence_char_count": 40,
+	"max_sentence_char_count": 100,
+	"comma_chance": 0.03,
+	"exclemation_mark_chance": 0.05,
+	"question_mark_chance": 0.05
+}
