@@ -3,7 +3,7 @@ A shitty lorem ipsum generator with support for custom word sets.
 
 Disclaimer: This is quite bad code I threw together in ~2h because I though it'd be funny and a small word set created by my friend in <10min. If you need something decent, maybe don't use this.
 
-The source code can be found in amogus_ipsum.py but the program can also be executed from amogus_ipsum.exe if you don't have python istalled
+The source code can be found in amogus_ipsum.py but the program can also be executed from amogus_ipsum.exe if you don't have python installed
 
 The input file specifies what words can be used for the output.  
 A trailing "-" indicates that the word __must__ be followed by another to create a compound word.  
