@@ -3,15 +3,15 @@ A shitty lorem ipsum generator with support for custom word sets.
 
 Disclaimer: This is quite bad code I threw together in ~2h because I though it'd be funny. If you need something decent, maybe don't use this.
 
-The input file specifies what words can be used for the output.
-A trailing "-" indicates that the word __must__ be followed by another to create a compound word.
-A trailing "_" indicates that the word __can__ be followed by another.
-A leading "-" indicates that the word __must__ follow another word as part of a compound.
-A leading "_" indicates that the word __can__ follow another word.
+The input file specifies what words can be used for the output.\\
+A trailing "-" indicates that the word __must__ be followed by another to create a compound word. \\
+A trailing "_" indicates that the word __can__ be followed by another. \\
+A leading "-" indicates that the word __must__ follow another word as part of a compound. \\
+A leading "_" indicates that the word __can__ follow another word. \\
 If the compounded word ends with "-" or "_" it is also able to be compounded meaning some compunds of three or more words may be generated
 
 The config file allows for:
-  * "input_file" - Default: "data_in.txt" - Name of file containing word set
+	* "input_file" - Default: "data_in.txt" - Name of file containing word set
 	* "output_file" - Default: "text_out.txt" - Name of file to override with output
 	* "copy_to_clipboard" - Default: false - If true, the output will additionally be copied to your clipboard
 	* "output_char_count" - Default: false - If true, print final character count to console
