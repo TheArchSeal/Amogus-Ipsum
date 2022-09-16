@@ -19,7 +19,7 @@ def get_config(filename: str) -> dict:
         "min_sentence_char_count": 40,
         "max_sentence_char_count": 100,
         "comma_chance": 0.03,
-        "exclemation_mark_chance": 0.05,
+        "exclamation_mark_chance": 0.05,
         "question_mark_chance": 0.05
     }
 
@@ -74,9 +74,9 @@ def rand_sentence(beginings: list[str], follow_ups: list[str], config: dict) -> 
         sentence = sentence[:-1]
 
     punctuation = random.random()
-    if punctuation < config["exclemation_mark_chance"]:
+    if punctuation < config["exclamation_mark_chance"]:
         sentence += "!"
-    elif punctuation < config["exclemation_mark_chance"] + config["question_mark_chance"]:
+    elif punctuation < config["exclamation_mark_chance"] + config["question_mark_chance"]:
         sentence += "?"
     else:
         sentence += "."

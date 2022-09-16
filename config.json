@@ -11,6 +11,6 @@
 	"min_sentence_char_count": 40,
 	"max_sentence_char_count": 100,
 	"comma_chance": 0.03,
-	"exclemation_mark_chance": 0.05,
+	"exclamation_mark_chance": 0.05,
 	"question_mark_chance": 0.05
 }
