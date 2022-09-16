@@ -5,9 +5,9 @@ Disclaimer: This is quite bad code I threw together in ~2h because I though it'd
 
 The input file specifies what words can be used for the output.  
 A trailing "-" indicates that the word __must__ be followed by another to create a compound word.  
-A trailing "_" indicates that the word __can__ be followed by another.  
+A trailing "\_" indicates that the word __can__ be followed by another.  
 A leading "-" indicates that the word __must__ follow another word as part of a compound.  
-A leading "_" indicates that the word __can__ follow another word.  
+A leading "\_" indicates that the word __can__ follow another word.  
 If the compounded word ends with "-" or "_" it is also able to be compounded meaning some compunds of three or more words may be generated
 
 The config.json file allows for:
