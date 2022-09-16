@@ -10,7 +10,7 @@ A leading "-" indicates that the word __must__ follow another word as part of a 
 A leading "_" indicates that the word __can__ follow another word.  
 If the compounded word ends with "-" or "_" it is also able to be compounded meaning some compunds of three or more words may be generated
 
-The config file allows for:
+The config.json file allows for:
 * "input_file" - Default: "data_in.txt" - Name of file containing word set
 * "output_file" - Default: "text_out.txt" - Name of file to override with output
 * "copy_to_clipboard" - Default: false - If true, the output will additionally be copied to your clipboard
